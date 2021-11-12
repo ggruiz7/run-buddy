@@ -35,8 +35,39 @@
       </nav>
     </header>
 
-    <!--  jero/jumbotron -->
-    <section></section>
+    <!--  hero/jumbotron -->
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Get Started Today</h3>
+            <p>Fill out this form and one of trainers will schedule a consult</p>
+            <!-- form element -->
+            <form action="">
+                <label for="name">Enter Full Name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+                <label for="email">Enter Email Address</label>
+                <input type="email" placeholder="example69@example.com" name="email" id="email" class="form-input">
+                <label for="phone">Enter Phone Number</label>
+                <input type="tel" placeholder="(666)666-6969" name="phone" id="phone" class="form-input">
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes">
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" if="trainer-no">
+                    <label for="trainer-no">No</label>
+                </p>
+                <p>
+                    <label for="checkbox">
+                        I acknowledge that I am at least 18 years of age
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox">
+                </p>
+                <button type="submit">
+                    Get Running!
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- end hero -->
 
     <!-- "what we do section" -->
     <section>
@@ -61,6 +92,11 @@
     <!-- footer -->
     <footer>
       <h2>&#10084 Made with love by Run Buddy.</h2>
+      <div>
+          <a href="#">Read Our Privacy Policy</a>
+          <br>
+          &copy, 2021 Run Buddy, Inc.
+      </div>
     </footer>
   </body>
 </html>
