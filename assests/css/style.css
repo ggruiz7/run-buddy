@@ -86,7 +86,24 @@ section {
   flex-wrap: wrap;
 }
 
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  margin: 3.5%;
+  color: #fff;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.hero-cta h2 {
+  font-style: italic;
+  font-size: 55px;
+  color: #fce133;
+}
+
 .hero-form {
+  width: 40%;
+  margin: 3.5%;
   padding: 20px;
   color: #024e76;
   background-color: #fce138;
@@ -130,22 +147,18 @@ hero-form label {
 /* hero style end */
 
 /* what we do section */
-.intro {
-  text-align: center;
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 /* what we do section end */
 
 /* what you do section */
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -169,17 +182,18 @@ hero-form label {
   font-size: 23px;
 }
 
-.stpes span {
+.steps span {
   font-size: 38px;
 }
 
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: solid 3px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 .primary-color {
   border-color: #fce138;
@@ -187,10 +201,6 @@ hero-form label {
 
 .secondary-color {
   border-color: #39a6b2;
-}
-
-.trainers {
-  text-align: center;
 }
 
 .trainer {
@@ -238,7 +248,6 @@ trainer-bio p {
 
 /* reach out styles start */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -277,3 +286,7 @@ trainer-bio p {
   color: #fce138;
 }
 /* reach out styles end */
+
+.flex-row {
+  display: flex;
+}
