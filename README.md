@@ -16,3 +16,6 @@ https://ggruiz7.github.io/run-buddy/
 ## Contribution
 
 Made with ❤️ by Gabriel
+
+
+### ©️2021 Run Buddy, Inc
